@@ -1,0 +1,41 @@
+html{
+    background-color: #1a75b4;
+}
+body {
+    background-color: #1a75b4;
+    color: white; 
+    margin : 0 auto;
+    padding : 2%;
+    width : 80%;
+    height : 80%; 
+    text-align : center;   
+}
+
+name{
+    font-size: 15pt;
+    font-style: oblique;
+}
+
+#profile{
+    width : 15%;
+    display : inline-flex;
+    text-align: center;
+    color: #1a75b4;
+    font-style: oblique;
+}
+#chat-log{
+    width : 75%;
+    display : inline-flex;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+#chat-message-input{
+    width : 90%;
+}
+
+#chat-message-submit.btn.btn-info{
+    margin : 3% auto;
+    width : 25%;
+}
+
